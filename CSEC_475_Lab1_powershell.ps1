@@ -150,7 +150,7 @@ Get-ChildItem -Force $FPD
 
 
 if($args.count -eq 2) {
-if($args -eq "csv") {
+if($args[1] -eq "csv") {
 
 $h = 'C:\Users\';$i = '\Documents\CSECScript.txt';$FP = $h + $args[0] + $i
 
